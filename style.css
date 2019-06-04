@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+/* font-family: 'Nunito Sans', sans-serif; */
+
+/* General */
+body {
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 1fr 3fr 6fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: ". balk inhoud .";
+    justify-content: stretch;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Nunito Sans', sans-serif;
+    }
+    
+.balk-box {
+    grid-area: balk; 
+    box-sizing: border-box;
+    margin: 5px; 
+}
+    
+.inhoud-box {
+    grid-area: inhoud;
+    box-sizing: border-box;
+    margin: 5px; 
+    line-height: 1.2;
+}
+
+p, ul {
+    text-align: left;
+}
+
+h2 {
+    font-size: 27px;
+    color: #0270B0;
+}
+
+h3 {
+    font-size: 22px;
+    margin: 0;
+}
+
+abbr {align-self: center}
+
+/* Balk */
+.balk {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #0270B0;
+    padding: 25px;
+    color: white;
+    text-align: left;
+}
+
+.balk h1 {
+    text-align: center
+}
+
+.balk h2, .balk h3 {
+    color: black;
+    text-align: center;
+    margin: 7px;
+}
+
+.balk img {
+    width: 150px;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.balk ul {
+    padding-left: 20px
+}
+
+/* Main */ 
+.inhoud {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-sizing:border-box;
+    min-height: 100%;
+    padding: 25px;   
+}
+
+.inhoud h3 {
+    margin-bottom:0;
+}
+
+.inhoud p {
+    font-style: italic;
+    margin-top: 2px;
+    padding-left: 30px;
+}
+
+.inhoud img {
+    width: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom:10px solid #0270B0;
+    box-shadow: 0px 0px 5px 5px rgb(245, 242, 202)
+}
+
+
