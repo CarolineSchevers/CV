@@ -1,0 +1,82 @@
+@media print {
+    body {
+        font-size: 20px;
+        display: grid;
+        grid-template-columns: 1fr 10fr;
+        grid-template-rows: auto;
+        grid-template-areas: "balk inhoud";
+        justify-content: stretch;
+        grid-gap: 30px;
+    }
+
+    .head, h1, h2 {
+        text-transform: uppercase;
+    }
+
+    .balk {
+        background-color: lightgrey;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .balk img {
+        display: flex;
+        width: 200px;
+        border-radius: 50%;
+        align-self: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    } 
+
+    .balk h1 {
+        display: flex;
+        align-items: center;
+    }
+    
+    .dropdown-content .to-print {
+        display: inline;
+        color: black;
+        font-size: 14px;
+        padding-right: 5px;
+    }
+
+    .not-to-print {
+        display: none;
+    }
+
+    table {
+        padding-top: 40px;
+    }
+    
+    td > .gedraaid {
+        width: 12px;
+    }
+    
+    td {
+        height: 30px;
+    }
+    
+    .firstOfList {
+        width: 125px;
+    }
+    
+    .gedraaid {
+        transform: rotate(-90deg);
+        font-size: 15px;
+        padding: 0;
+    }
+    
+    .fas, .far{
+        font-size: 12px;
+    }
+    
+    td {
+        font-size: 18px;
+    }
+
+    .fas.fa-caret-down {
+        display: none;
+    }
+}
