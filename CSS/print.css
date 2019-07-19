@@ -1,6 +1,6 @@
 @media print {
     body {
-        font-size: 20px;
+        font-size: 19px;
         display: grid;
         grid-template-columns: 1fr 10fr;
         grid-template-rows: auto;
@@ -9,7 +9,9 @@
         grid-gap: 30px;
     }
 
-    .head, h1, h2 {
+    .head,
+    h1,
+    h2 {
         text-transform: uppercase;
     }
 
@@ -18,6 +20,7 @@
         padding: 15px;
         display: flex;
         flex-direction: column;
+        height: 100%
     }
 
     .balk img {
@@ -28,13 +31,13 @@
         margin-top: 30px;
         margin-bottom: 30px;
         text-align: center;
-    } 
-
-    .balk h1 {
-        display: flex;
-        align-items: center;
     }
-    
+
+    .balk h1,
+    .balk h2 {
+        text-align: center;
+    }
+
     .dropdown-content .to-print {
         display: inline;
         color: black;
@@ -49,29 +52,30 @@
     table {
         padding-top: 40px;
     }
-    
-    td > .gedraaid {
+
+    td>.gedraaid {
         width: 12px;
     }
-    
+
     td {
         height: 30px;
     }
-    
+
     .firstOfList {
         width: 125px;
     }
-    
+
     .gedraaid {
         transform: rotate(-90deg);
         font-size: 15px;
         padding: 0;
     }
-    
-    .fas, .far{
+
+    .fas,
+    .far {
         font-size: 12px;
     }
-    
+
     td {
         font-size: 18px;
     }
