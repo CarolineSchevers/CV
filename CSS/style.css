@@ -139,6 +139,20 @@ td {
     font-size: 18px;
 }
 
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-icons i {
+    font-size: 50px;
+    padding: 5px;
+    color: black;
+}
+.contact-icons i:hover {
+   color: rgb(185, 185, 185);
+}
+
 /* Main */ 
 .head {
     font-size: 40px;
