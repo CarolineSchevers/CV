@@ -6,7 +6,7 @@ body {
     margin: 0%;
     background-color: lightgray;
     display: grid;
-    grid-template-columns: 1fr 3fr 6fr 1fr;
+    grid-template-columns: 1fr 4fr 6fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: ". balk inhoud .";
     justify-content: stretch;
@@ -18,6 +18,7 @@ body {
 .balk-box {
     grid-area: balk; 
     box-sizing: border-box;
+    background-color: #0270B0;
     margin: 5px; 
 }
     
@@ -45,11 +46,15 @@ h3 {
 }
 
 button {
-    width: 35px;
-    height: 35px;
+    width: 38px;
+    height: 38px;
     padding: 0;
     background: #0270B0;
     border-width: 1px;
+}
+
+.not-to-print:hover {
+   border-width: 4px;
 }
 
 button i {
@@ -59,7 +64,7 @@ button i {
 }
 
 .fas.fa-print {
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .to-print {
@@ -71,7 +76,6 @@ button i {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #0270B0;
     padding: 25px;
     color: white;
     text-align: left;
