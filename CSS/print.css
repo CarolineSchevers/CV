@@ -16,7 +16,7 @@
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     h2 {
@@ -31,7 +31,7 @@
     }
 
     .balk-box {
-        background-color: rgb(175, 175, 175);
+        background-color: rgb(214, 214, 214);
     }
 
     .balk img {
@@ -94,10 +94,21 @@
     .fas.fa-caret-down {
         display: none;
     }
-
+    .contact-icons {
+        display: flex;
+        justify-content: center;
+    }
     .contact-icons i {
         font-size: 30px;
         padding: 3px;
         color: black;
+    }
+
+    .order-1 {
+        order: 1;
+    }
+
+    .order-2 {
+        order: 2;
     }
 }
