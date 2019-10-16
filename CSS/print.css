@@ -1,114 +1,114 @@
-@media print {
-    body {
-        font-size: 19px;
-        display: grid;
-        grid-template-columns: 1fr 10fr;
-        grid-template-rows: auto;
-        grid-template-areas: "balk inhoud";
-        justify-content: stretch;
-        grid-gap: 30px;
-    }
+body {
+    font-size: 19px;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: auto;
+    grid-template-areas: "balk inhoud";
+    justify-content: stretch;
+    grid-gap: 30px;
+}
 
-    .head,
-    h1,
-    h2 {
-        text-transform: uppercase;
-    }
+.head,
+h1,
+h2 {
+    text-transform: uppercase;
+}
 
-    h1 {
-        font-size: 27px;
-    }
+h1 {
+    font-size: 27px;
+}
 
-    h2 {
-        font-size: 25px;
-    }
+h2 {
+    font-size: 25px;
+}
 
-    .balk {
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        height: 100%
-    }
+.balk {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
 
-    .balk-box {
-        background-color: rgb(214, 214, 214);
-    }
+.balk-box {
+    background-color: rgb(214, 214, 214);
+}
 
-    .balk img {
-        display: flex;
-        width: 200px;
-        border-radius: 50%;
-        align-self: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        text-align: center;
-    }
+.balk img {
+    display: flex;
+    width: 200px;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
 
-    .balk h1,
-    .balk h2 {
-        text-align: center;
-    }
+.balk h1,
+.balk h2 {
+    text-align: center;
+}
 
-    .dropdown-content .to-print {
-        display: inline;
-        color: black;
-        font-size: 14px;
-        padding-right: 5px;
-    }
+.dropdown-content .to-print {
+    display: inline;
+    color: black;
+    font-size: 14px;
+    padding-right: 5px;
+}
 
-    .not-to-print {
-        display: none;
-    }
+.not-to-print {
+    display: none;
+}
 
-    table {
-        padding-top: 80px;
-    }
+table {
+    padding-top: 80px;
+}
 
-    td>.gedraaid {
-        width: 12px;
-    }
+td>.gedraaid {
+    width: 12px;
+}
 
-    td {
-        height: 30px;
-    }
+td {
+    height: 30px;
+}
 
-    .firstOfList {
-        width: 125px;
-    }
+.firstOfList {
+    width: 125px;
+}
 
-    .gedraaid {
-        transform: rotate(-90deg);
-        font-size: 15px;
-        padding: 0;
-    }
+.gedraaid {
+    transform: rotate(-90deg);
+    font-size: 15px;
+    padding: 0;
+}
 
-    .fas,
-    .far {
-        font-size: 12px;
-    }
+.fas,
+.far {
+    font-size: 12px;
+}
 
-    td {
-        font-size: 18px;
-    }
+td {
+    font-size: 18px;
+}
 
-    .fas.fa-caret-down {
-        display: none;
-    }
-    .contact-icons {
-        display: flex;
-        justify-content: center;
-    }
-    .contact-icons i {
-        font-size: 30px;
-        padding: 3px;
-        color: black;
-    }
+.fas.fa-caret-down {
+    display: none;
+}
 
-    .order-1 {
-        order: 1;
-    }
+.contact-icons {
+    display: flex;
+    justify-content: center;
+}
 
-    .order-2 {
-        order: 2;
-    }
+.contact-icons i {
+    font-size: 30px;
+    padding: 3px;
+    color: black;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
 }
